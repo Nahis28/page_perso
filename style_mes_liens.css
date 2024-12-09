@@ -1,26 +1,22 @@
-body {
+html, body {
     display: flex;
     flex-direction: column;
-    display: grid;
-    grid-template-rows: 5% 70% 25%;
+    /* display: grid;
+    grid-template-rows: 20% 60% 2%; */
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
 
-#fond_d_ecran {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;   
+body {
+    background-image: url('Images/background.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* L'image couvre toute la page */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Empêcher la répétition */
+    background-attachment: fixed; /* Optionnel : fixe l'image lors du défilement */ 
 }
 
-.info {
-    position: relative;
-    z-index: 2;
-    grid-row: 2;
-}
 
 .profile_picture {
     display: block;
@@ -32,7 +28,7 @@ body {
     border: solid #ffffff 3px;
     box-shadow: 1px 3px 10px #886b89;
     position: relative;
-    top: 110px;
+    top: 150px;
     margin-bottom: 0;
     background: linear-gradient(90deg, rgba(217,184,193,1) 0%, rgba(165,133,166,1) 50%, rgba(242,141,141,1) 100%);
 }
@@ -40,7 +36,7 @@ body {
 .profile_name {
     letter-spacing: 3px;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     color: #6a486c;
     margin-left: auto;
     margin-right: auto;
@@ -78,6 +74,7 @@ ul {
     justify-content: space-between;
     list-style: none;
     padding: 0;
+    margin-top: 80px;
 }
 
 
@@ -89,15 +86,14 @@ a:active {
 .information {
     background-color: #ffffff5e;
     width: 80%;
-    height: 90%;
-    padding: 130px 60px; 
+    height: 60%;
+    padding: 110px 60px; 
     border-radius: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 40px;
+    align-self: center;
 }
 
-.presentation {
+.profile_presentation {
     letter-spacing: 2px;
     color: #6a486c;
     font-family: 'Roboto Condensed';
@@ -107,8 +103,8 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    padding: 0px 0px 40px 0px;
     width: 75%;
+    
 }
 
 .logo_contact {
