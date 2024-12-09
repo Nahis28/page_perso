@@ -87,7 +87,7 @@ a:active {
     background-color: #ffffff5e;
     width: 80%;
     height: auto;
-    padding: 130px 60px;
+    padding: 120px 60px;
     border-radius: 15px;
     margin-top: 40px;
     align-self: center;
@@ -120,7 +120,6 @@ a:active {
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 20px;
-    margin-bottom: 10px;
     padding: 25px 65px;
     border: 4px solid #ffffff;
     width: 80%;
