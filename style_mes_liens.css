@@ -36,19 +36,19 @@ body {
 .profile_name {
     letter-spacing: 3px;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     color: #6a486c;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 44px;
-    font-family: 'Jersey 25';
+    font-size: 48px;
+    font-family: 'Lexend Deca';
 }
 
 .links {
     letter-spacing: 3px;
-    font-family: 'Jersey 25';
+    font-family: 'Lexend Deca';
     font-size: 38px;
     text-align: center;
     margin-top: 20px;
@@ -74,7 +74,6 @@ ul {
     justify-content: space-between;
     list-style: none;
     padding: 0;
-    margin-top: 80px;
 }
 
 
@@ -97,14 +96,13 @@ a:active {
     letter-spacing: 2px;
     color: #6a486c;
     font-family: 'Roboto Condensed';
-    font-size: 24px;
+    font-size: 36px;
     font-style: oblique;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    width: 75%;
-    
+    margin: 0;
+    margin-bottom: 40px;
+    width: 100%;
+    justify-self: center;
 }
 
 .logo_contact {
