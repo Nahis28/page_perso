@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-rows: 3% 80% 17%;
+    background-image: url(./Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    grid-row: 2;
+    margin: auto;
+}
+
+.profile_picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    border: solid #ffffff 3px;
+    box-shadow: 1px 3px 10px #886b89;
+    position: relative;
+    top: 90px;
+    margin-bottom: 0;
+    background: linear-gradient(90deg, rgba(217,184,193,1) 0%, rgba(165,133,166,1) 50%, rgba(242,141,141,1) 100%);
+}
+
+.profile_name {
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 20px;
+    color: #6a486c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Jersey 25';
+}
+
+.links {
+    letter-spacing: 3px;
+    font-family: 'Jersey 25';
+    font-size: 38px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 35px 65px;
+    border: 4px solid #ffffff;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 1px 3px 10px #886b89;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(217,184,193,1) 10%, rgba(165,133,166,1) 60%, rgba(242,141,141,1) 100%);
+    transition: color 0.5s;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+
+.links:hover {
+    background: #ffffff2c;
+    color: #6a486c;
+}
+
+a:active {
+    background: #ffffff2c;
+    color: #6a486c;
+}
+
+.information {
+    background-color: #ffffff5e;
+    width: 80%;
+    height: auto;
+    padding: 100px 60px; 
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentation {
+    letter-spacing: 2px;
+    color: #6a486c;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-style: oblique;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0px 0px 40px 0px;
+    width: 75%;
+}
+
+.logo_contact {
+    width: 70px;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+#logo_insta {
+    width: 60px;
+    height: auto;
+    position: relative;
+    top: 5px;
+}
+
+.logo_contact:hover, #logo_insta:hover {
+    transform: scale(1.3);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 25px 65px;
+    border: 4px solid #ffffff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 1px 3px 10px #886b89;
+    background: linear-gradient(90deg, rgba(217,184,193,1) 10%, rgba(165,133,166,1) 60%, rgba(242,141,141,1) 100%);
+}
