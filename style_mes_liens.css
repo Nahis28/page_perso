@@ -130,7 +130,7 @@ a:active {
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .links:hover {
         background: #ffffff2c;
         color: #6a486c;
