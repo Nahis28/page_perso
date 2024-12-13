@@ -8,7 +8,11 @@ html, body {
 }
 
 body {
-    background-image: url('Images/background.jpg'); 
+    /* background-image: url('Images/background.jpg');  */
+    /* background-image: url('Images/bokeh-bg.jpg'); */
+    /* background-image: url('Images/bokeh-black-bg.jpg');  */
+    /* background-image: url('Images/brown-bg.jpg'); */
+    background-image: url('Images/violet-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +86,7 @@ a:active {
 }
 
 .information {
-    background-color: #ffffff5e;
+    background-color: #ffffffd2;
     width: 80%;
     height: 60%;
     padding: 150px 60px;
